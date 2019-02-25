@@ -1,0 +1,36 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'Goodapp' do
+  pod 'Firebase/Core', '~> 5.15.0'
+  pod 'Firebase/Firestore', '~> 5.15.0'
+
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for Goodapp
+
+  target 'Goodapp-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'GoodappTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'Goodapp-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for Goodapp-tvOS
+
+  # target 'Goodapp-tvOSTests' do
+  #   inherit! :search_paths
+  #   # Pods for testing
+  # end
+
+end
